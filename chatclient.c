@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
                 printf("发送信息出错\n");
                 errexit("send:%s\n", strerror(errno));
             }
-            printf("--------/n发送完成\n\n");
+            printf("--------\n发送完成\n\n");
             fflush(stdout);
         }
     }
